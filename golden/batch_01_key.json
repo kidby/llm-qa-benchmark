@@ -1,0 +1,92 @@
+[
+  {
+    "item": 1,
+    "sample_id": "api_todos",
+    "expected_pattern": "api",
+    "model_slug": "claude-haiku-4-5",
+    "trial": 0,
+    "auto_pattern_used": true,
+    "auto_e2e_passed": false
+  },
+  {
+    "item": 2,
+    "sample_id": "api_todos",
+    "expected_pattern": "api",
+    "model_slug": "gpt-5-5",
+    "trial": 0,
+    "auto_pattern_used": true,
+    "auto_e2e_passed": true
+  },
+  {
+    "item": 3,
+    "sample_id": "fixtures_session",
+    "expected_pattern": "fixtures",
+    "model_slug": "claude-opus-4-8",
+    "trial": 2,
+    "auto_pattern_used": false,
+    "auto_e2e_passed": false
+  },
+  {
+    "item": 4,
+    "sample_id": "fixtures_session",
+    "expected_pattern": "fixtures",
+    "model_slug": "grok-4-3",
+    "trial": 0,
+    "auto_pattern_used": false,
+    "auto_e2e_passed": false
+  },
+  {
+    "item": 5,
+    "sample_id": "network_outage",
+    "expected_pattern": "network",
+    "model_slug": "claude-haiku-4-5",
+    "trial": 0,
+    "auto_pattern_used": true,
+    "auto_e2e_passed": true
+  },
+  {
+    "item": 6,
+    "sample_id": "network_outage",
+    "expected_pattern": "network",
+    "model_slug": "gpt-5-5",
+    "trial": 0,
+    "auto_pattern_used": true,
+    "auto_e2e_passed": true
+  },
+  {
+    "item": 7,
+    "sample_id": "polling_report",
+    "expected_pattern": "polling",
+    "model_slug": "claude-haiku-4-5",
+    "trial": 0,
+    "auto_pattern_used": false,
+    "auto_e2e_passed": true
+  },
+  {
+    "item": 8,
+    "sample_id": "polling_report",
+    "expected_pattern": "polling",
+    "model_slug": "gpt-5-5",
+    "trial": 0,
+    "auto_pattern_used": false,
+    "auto_e2e_passed": true
+  },
+  {
+    "item": 9,
+    "sample_id": "pom_checkout",
+    "expected_pattern": "page_object",
+    "model_slug": "claude-haiku-4-5",
+    "trial": 0,
+    "auto_pattern_used": false,
+    "auto_e2e_passed": false
+  },
+  {
+    "item": 10,
+    "sample_id": "pom_checkout",
+    "expected_pattern": "page_object",
+    "model_slug": "gpt-5-5",
+    "trial": 0,
+    "auto_pattern_used": true,
+    "auto_e2e_passed": false
+  }
+]

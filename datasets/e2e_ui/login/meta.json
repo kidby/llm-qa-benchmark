@@ -1,0 +1,4 @@
+{
+  "base_url": "http://localhost:8080",
+  "success_assertion": "After logging in with valid credentials, the page shows a heading containing 'Welcome, demo'."
+}

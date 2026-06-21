@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "An accessibility check of '/profile' reports no serious or critical violations.",
+  "expected_pattern": "accessibility"
+}

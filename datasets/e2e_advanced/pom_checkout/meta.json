@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "The item detail page for 'USB-C Hub' shows the title 'USB-C Hub' and its price '$29.50'.",
+  "expected_pattern": "structure"
+}

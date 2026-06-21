@@ -1,0 +1,5 @@
+{
+  "module_name": "fizzbuzz",
+  "language": "python",
+  "summary": "Classic FizzBuzz with input validation."
+}

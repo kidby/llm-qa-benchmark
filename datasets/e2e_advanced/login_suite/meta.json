@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "A suite of independent sign-in tests passes, with the sign-in interaction defined once and reused across the tests rather than repeated in each one.",
+  "expected_pattern": "structure"
+}

@@ -1,0 +1,4 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "The item detail page for item 2 (at /items/2) loads and shows the title 'USB-C Hub'."
+}

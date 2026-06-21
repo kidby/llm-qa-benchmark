@@ -1,0 +1,20 @@
+  1) [chromium] › flow.spec.ts:19:1 › item detail shows title and price ──────────
+
+    Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)
+
+    Locator: getByTestId('item-title')
+    Expected string: "USB-C Hub"
+    Received: <element(s) not found>
+    Call log:
+      - expect.toHaveText with timeout 5000ms
+      - waiting for getByTestId('item-title')
+
+      21 |   await item.open('2');
+    > 22 |   await expect(item.title()).toHaveText('USB-C Hub');
+         |                              ^
+      23 |   await expect(item.price()).toHaveText('$29.50');
+
+        at flow.spec.ts:22:30
+
+  1 failed
+    [chromium] › flow.spec.ts:19:1 › item detail shows title and price

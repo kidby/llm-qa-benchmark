@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "Each check starts from a shared signed-in, seeded session (set up once, not repeated), and both checks pass.",
+  "expected_pattern": "fixtures"
+}

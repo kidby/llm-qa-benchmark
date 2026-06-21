@@ -1,0 +1,4 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "After generating the report on /report, the status indicator eventually reads 'done' and the test waits for that rather than reading it immediately."
+}

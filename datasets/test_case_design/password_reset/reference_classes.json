@@ -1,0 +1,17 @@
+{
+  "equivalence_classes": [
+    "registered email -> confirmation shown",
+    "unregistered email -> identical confirmation (privacy)",
+    "valid new password accepted",
+    "password too short (<8)",
+    "password too long (>64)",
+    "password missing a digit",
+    "password missing a letter",
+    "new password equals previous password -> rejected",
+    "expired reset link (>30 min) -> rejected",
+    "reused (single-use) link -> rejected",
+    "mismatched password confirmation -> rejected",
+    "rate limit after 5 failed attempts in 15 min"
+  ],
+  "boundary_values": [7, 8, 64, 65, 30, 5, 15]
+}

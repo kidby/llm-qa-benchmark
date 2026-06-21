@@ -1,0 +1,5 @@
+{
+  "module_name": "discount",
+  "language": "python",
+  "summary": "Apply a percentage discount with validation and rounding."
+}

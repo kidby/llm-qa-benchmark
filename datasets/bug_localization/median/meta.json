@@ -1,0 +1,5 @@
+{
+  "module_name": "median",
+  "fault_lines": [14],
+  "symptom": "median() returns the wrong value for even-length inputs (it does not average the two middle elements)."
+}

@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "The exported file 'todos.csv' is received as a download and its contents include the text 'Welcome todo'.",
+  "expected_pattern": "download"
+}

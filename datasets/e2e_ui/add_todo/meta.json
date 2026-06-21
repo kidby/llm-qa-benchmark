@@ -1,0 +1,4 @@
+{
+  "base_url": "http://localhost:8080",
+  "success_assertion": "After adding a todo named 'Buy milk', it appears in the todo list."
+}

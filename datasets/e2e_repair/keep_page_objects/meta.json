@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "The item detail page for item 2 (at /items/2) shows the title 'USB-C Hub' and the price '$29.50', with the existing page-object structure preserved.",
+  "expected_pattern": "structure"
+}

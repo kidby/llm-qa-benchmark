@@ -1,0 +1,17 @@
+  1) [chromium] › flow.spec.ts:3:1 › report finishes ───────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "done"
+    Received: "processing"
+
+      5 |   await page.getByTestId('generate').click();
+      6 |   const text = await page.getByTestId('report-status').textContent();
+    > 7 |   expect(text).toBe('done');
+        |                ^
+      8 | });
+
+        at flow.spec.ts:7:16
+
+  1 failed
+    [chromium] › flow.spec.ts:3:1 › report finishes

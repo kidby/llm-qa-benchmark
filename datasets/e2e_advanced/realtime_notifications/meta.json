@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "After the realtime feed reports three unread notifications, the badge (data-testid 'notif-count') reads '3'.",
+  "expected_pattern": "realtime"
+}

@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# uv
+uv.lock
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Test / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Benchmark outputs (generated runs)
+results/*/
+!results/.gitkeep
+
+# Reflex (build artifacts; the app source lives in dashboard/qabench_dash/)
+.web/
+dashboard/.web/
+dashboard/.states/
+dashboard/reflex.lock/
+dashboard/requirements.txt
+
+# Browser-automation / screenshot artifacts (but keep committed docs images)
+.playwright-mcp/
+*.png
+*.jpeg
+!docs/images/*.png
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

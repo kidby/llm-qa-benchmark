@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "The measured load timing of '/app' is within the budget (the page becomes interactive in under ~2 seconds).",
+  "expected_pattern": "performance"
+}

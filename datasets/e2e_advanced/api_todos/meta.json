@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "POST /api/todos with title 'Call dentist' returns 201, and a subsequent GET /api/todos includes 'Call dentist'.",
+  "expected_pattern": "api"
+}

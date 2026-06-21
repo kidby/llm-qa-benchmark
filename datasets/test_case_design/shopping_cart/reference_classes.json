@@ -1,0 +1,17 @@
+{
+  "equivalence_classes": [
+    "quantity 1..99 accepted",
+    "quantity 0 removes line item",
+    "quantity > 99 rejected",
+    "quantity exceeding stock rejected",
+    "valid promo SAVE10 applies 10% once",
+    "invalid promo rejected with message",
+    "expired promo rejected",
+    "promo applied twice -> only once",
+    "free shipping at subtotal >= 50 after discount",
+    "no free shipping below 50",
+    "checkout blocked on empty cart",
+    "checkout blocked when a line exceeds stock"
+  ],
+  "boundary_values": [0, 1, 99, 100, 50, 49.99]
+}

@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "After generating the report, the element with data-testid 'report-status' eventually reads 'done', and the test waits for that rather than asserting immediately.",
+  "expected_pattern": "polling"
+}

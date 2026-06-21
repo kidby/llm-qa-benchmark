@@ -1,0 +1,11 @@
+# The richer app under test for the e2e_advanced track.
+# Start with:  docker compose -f docker/advanced-app/docker-compose.yml up
+services:
+  advanced-app:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: python app.py
+    ports:
+      - "8081:8081"

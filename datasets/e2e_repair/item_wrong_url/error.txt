@@ -1,0 +1,21 @@
+  1) [chromium] › flow.spec.ts:3:1 › open item detail ───────────────────────────
+
+    Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)
+
+    Locator: getByTestId('item-title')
+    Expected string: "USB-C Hub"
+    Received: <element(s) not found>
+    Call log:
+      - expect.toHaveText with timeout 5000ms
+      - waiting for getByTestId('item-title')
+
+      3 | test('open item detail', async ({ page }) => {
+      4 |   await page.goto('http://localhost:8081/item/2');
+    > 5 |   await expect(page.getByTestId('item-title')).toHaveText('USB-C Hub');
+        |                                                ^
+      6 | });
+
+        at flow.spec.ts:5:48
+
+  1 failed
+    [chromium] › flow.spec.ts:3:1 › open item detail

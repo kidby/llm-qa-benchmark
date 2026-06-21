@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "When the /api/todos request fails, the element with data-testid 'error-banner' becomes visible on /app.",
+  "expected_pattern": "network"
+}

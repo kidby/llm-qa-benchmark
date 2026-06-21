@@ -1,0 +1,4 @@
+{
+  "base_url": "http://localhost:8081",
+  "success_assertion": "The item detail page at /items/2 shows the title 'USB-C Hub' and the price '$29.50'."
+}
